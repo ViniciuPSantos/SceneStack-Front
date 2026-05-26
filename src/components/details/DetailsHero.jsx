@@ -8,7 +8,7 @@ function DetailsHero({ item }) {
       />
       <div style={{ paddingBottom: 4 }}>
         <div style={{ display: "inline-block", background: "#e53535", color: "#fff", fontSize: 10, letterSpacing: "1.5px", textTransform: "uppercase", padding: "3px 10px", borderRadius: 4, marginBottom: 10 }}>
-          {item.type === "series" ? "Série" : "Filme"}
+          {(item.type ?? item.Type) === "series" ? "Série" : "Filme"}
         </div>
         <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 38, lineHeight: 1, color: "#fff", letterSpacing: 1, marginBottom: 6 }}>
           {item.title}
