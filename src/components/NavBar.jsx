@@ -1,4 +1,4 @@
-function Navbar() {
+function NavBar() {
 
   return (
     <nav className="w-full bg-zinc-900 px-8 py-4 border-b border-zinc-800">
@@ -11,4 +11,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
