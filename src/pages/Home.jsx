@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import NavBar from "../components/Navbar";
+import NavBar from "../components/NavBar";
 import SearchBar from "../components/SearchBar";
 import MovieCard from "../components/MovieCard";
 import Pagination from "../components/Pagination";
