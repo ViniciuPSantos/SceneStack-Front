@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "scenestack-api-production.up.railway.app/api/scenestack"
+  baseURL: "https://scenestack-api-production.up.railway.app/api/scenestack"
 })
 
 export default api;

@@ -27,7 +27,7 @@ function Home() {
         currentPage
       );
 
-      setMovies(response.data.search || []);
+      setMovies(response.data.search || response.data.Search || []);
 
       setPage(currentPage);
 
